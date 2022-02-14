@@ -1,9 +1,12 @@
 package com.company;
 
+
+
 public class TryArray {
 
 
     void tryArray(){
+
 
         int[] age = {12, 4, 5};
 

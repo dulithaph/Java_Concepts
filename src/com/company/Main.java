@@ -9,10 +9,13 @@ public class Main {
         obj.tryFilds();
 
         TryIF obj2 = new TryIF();
-        obj2.tryifstate(obj.number);
+        obj2.tryifstate(obj.age);
 
         TryArray obj3 = new TryArray();
         obj3.tryArray();
+
+        ForLoop forloop = new ForLoop();
+        forloop.calSum();
 
 
     }
