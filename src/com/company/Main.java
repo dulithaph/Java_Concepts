@@ -5,6 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        ForLoop forloop = new ForLoop();
+        forloop.calSum();
+
         TryInputs obj = new TryInputs();
         obj.tryFilds();
 
@@ -14,8 +18,7 @@ public class Main {
         TryArray obj3 = new TryArray();
         obj3.tryArray();
 
-        ForLoop forloop = new ForLoop();
-        forloop.calSum();
+
 
 
     }
