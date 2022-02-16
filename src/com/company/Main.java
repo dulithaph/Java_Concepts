@@ -6,6 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
 
+        WhileLoop whileobj = new WhileLoop();
+        whileobj.useWhile();
+
         ForLoop forloop = new ForLoop();
         forloop.calSum();
 

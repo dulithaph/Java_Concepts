@@ -22,7 +22,7 @@ public class ForLoop {
 
         }
 
-        System.out.println("Factorial of " +n+ " is :" + sum);
+        System.out.println("Summation of " +n+ "times is :" + sum);
         System.out.println();
 
 
@@ -36,7 +36,7 @@ public class ForLoop {
 
         }
 
-        System.out.println("Factorial of " +b+ " is :" + sum2);
+        System.out.println("Summation of " +b+ " times is :" + sum2);
         System.out.println();
 
 
@@ -53,6 +53,17 @@ public class ForLoop {
 
         System.out.println("Sum of for-each loop :" + sum3);
         System.out.println();
+
+
+        //print numbers to 1-5, this task also done using while loop
+        int start, end = 5;
+        for(start = 1; start<=end; start++){
+            System.out.println(start);
+        }
+
+        System.out.println();
+
+
 
     }
 
